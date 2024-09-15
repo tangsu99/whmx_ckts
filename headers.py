@@ -1,5 +1,8 @@
 # 此处填入 Cookie
 cookies = ""
+if cookies == "":
+    print('未设置 Cookie!')
+    input('请输入 Cookie: ')
 # 来自 Firefox 控制台复制全部
 img_headers_ = [
     {
